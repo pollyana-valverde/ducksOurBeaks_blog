@@ -621,67 +621,8 @@ div.patos-artg-2-line {
 /*fim categoria patos*/
 
 
-
-/*categoria ganso e merganso*/
-/* .categoryLine-ganso {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: 40px;
-}
-
-.categoryLine-ganso-header {
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-}
-
-.categoryLine-ganso-header h2 {
-    color: #b99168;
-    transition: ease .3s;
-}
-
-.categoryLine-ganso-header a {
-    text-decoration: none;
-}
-
-.categoryLine-ganso-header a h2:hover {
-    color: #977e66;
-    margin-right: -10px;
-}
-
-.categoryLine-ganso-artgs {
-    display: flex;
-}
-
-.categoryLine-ganso-artgs a {
-    text-decoration: none;
-    transition: ease .3s;
-}
-
-.categoryLine-ganso-artgs a:hover {
-    opacity: 90%;
-}
-
-.categoryLine-ganso-artgs a img {
-    width: 270px;
-    height: 270px;
-    margin-inline: 20px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.082);
-}
-
-.categoryLine-ganso-artgs a h1 {
-    margin-left: 25px;
-    text-align: left;
-    color: #b99168;
-    font-size: 26px;
-} */
-
-
-
 /*categoria marreco (1  img com link, 3 links com img)*/
-.categoryLine-marrecos {
+/* .categoryLine-marrecos {
     margin: 50px;
 }
 
@@ -763,7 +704,7 @@ div.marrecos-artg-2-line {
 .marrecos-artg-1 a h1 {
     margin-left: 110px;
     color: #b99168;
-}
+} */
 
 /*fim categoria marreco*/
 
