@@ -149,6 +149,7 @@ nav.sticky .login button:hover {
     border: unset;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.105);
 }
+
 /* fim menu */
 
 
@@ -157,6 +158,7 @@ nav.sticky .login button:hover {
 .margemCorpo {
     margin-top: 90px;
 }
+
 /*fim*/
 
 
@@ -273,6 +275,7 @@ nav.sticky .login button:hover {
     font-size: 24px;
     color: #977e66;
 }
+
 /*fim artigos recentes*/
 
 
@@ -332,6 +335,7 @@ nav.sticky .login button:hover {
     color: #af875f;
     font-size: 20px;
 }
+
 /*fim categorias específicas*/
 
 
@@ -378,45 +382,46 @@ div.categories-line {
     color: #af875f;
 }
 
-.animCirclesCtg{
+.animCirclesCtg {
     transition: ease .5s all;
 }
 
-.animCirclesCtg:hover{
+.animCirclesCtg:hover {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
 }
+
 /*fim categorias geral*/
 
 /*categoria cisne*/
-.categoryLine-cisne{
+.categoryLine-cisne {
     display: flex;
     justify-content: center;
 }
 
-.ctg_cisne_content{
+.ctg_cisne_content {
     align-items: center;
     background-color: #FEFAE0;
     box-shadow: 1px 1px 40px 1px #d4a373db;
     border-radius: 20px;
 }
 
-.cisne_content_txt{
+.cisne_content_txt {
     padding: 0 50px;
 }
 
-.cisne_content_txt h1{
+.cisne_content_txt h1 {
     color: #D4A373;
     font-weight: bold;
 }
 
-.cisne_content_txt h3{
+.cisne_content_txt h3 {
     color: #ad865e;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.cisne_content_txt a button{
+.cisne_content_txt a button {
     padding: 13px 40px;
     border: 1px solid #d4a373;
     color: #d4a373;
@@ -426,28 +431,38 @@ div.categories-line {
     transition: ease .5s all;
 }
 
-.cisne_content_txt a button:hover{
+.cisne_content_txt a button:hover {
     box-shadow: 1px 1px 10px 1px #d4a373a4;
     border: 1px solid #d4a37300;
 }
 
-.cisne_content_img img{
-    height: 555px;
+.cisne_content_img{
+    padding-right: 0 !important;
+}
+
+.cisne_content_img img {
+    width: 100%;
     border-radius: 0 20px 20px 0;
 }
 
 /*faixa categoria piadeira*/
 
+ .categoryLine-piadeira{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 div.piadeira-conteiner {
-   margin: 50px 0;
-   padding: 50px;
+    flex-wrap: wrap !important;
+    margin: 50px 0;
+    padding: 50px;
     background-color: #b99168;
     justify-content: center;
     align-items: center;
 }
 
 .piadeira-conteiner-content {
-    align-items: center ;
+    align-items: center;
 }
 
 .piadeira-conteiner-content h1 {
@@ -503,8 +518,10 @@ div.piadeira-conteiner {
 }
 
 .piadeira-conteiner-vid img {
+    width: 100% !important;
     border-radius: 10px;
 }
+
 /*faixa categoria piadeira*/
 
 
@@ -589,6 +606,7 @@ div.patos-artg-2-line {
     height: 1px;
     background-color: #d4a3737c;
 }
+
 /*fim categoria patos*/
 
 
@@ -735,6 +753,7 @@ div.marrecos-artg-2-line {
     margin-left: 110px;
     color: #b99168;
 }
+
 /*fim categoria marreco*/
 
 
@@ -962,7 +981,7 @@ div.marrecos-artg-2-line {
 /*responsividade*/
 @media (max-width: 1500px) {
 
-    .recent-center img{
+    .recent-center img {
         width: 600px;
     }
 
@@ -981,30 +1000,30 @@ div.marrecos-artg-2-line {
 }
 
 @media (max-width: 1350px) {
-    .recent-left img{
+    .recent-left img {
         width: 100%;
     }
 
-    .recent-center img{
+    .recent-center img {
         width: 90%;
     }
 
-    .recent-right a img{
+    .recent-right a img {
         width: 90%;
     }
 }
 
 @media (max-width: 768px) {
 
-    .recents{
+    .recents {
         display: block;
     }
-   
+
     .recent-left {
         width: 100%;
     }
 
-    .recent-center{
+    .recent-center {
         margin: 0 !important;
     }
 
@@ -1029,8 +1048,8 @@ div.marrecos-artg-2-line {
     .recent-right a img {
         width: 95%;
     }
-    
-    .categoryLine-artgs{
+
+    .categoryLine-artgs {
         flex-wrap: wrap;
     }
 
@@ -1038,7 +1057,7 @@ div.marrecos-artg-2-line {
         margin-top: 20px;
     }
 
-    .categories-links{
+    .categories-links {
         flex-wrap: wrap;
     }
 }
