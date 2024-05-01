@@ -14,44 +14,62 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.menu-total{
-    display: flex;
+/*scrollbar*/
+html ::-webkit-scrollbar {
+    width: 12px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #D4A373;
+    border: 3px solid #E9EDC9;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #E9EDC9;
+}
+
+/*fim scrollbar*/
+
+/* menu */
+nav.navbar {
+    align-items: center !important;
+    justify-content: space-between !important;
+    transition: all 0.4s ease;
 }
 
 .logo {
     display: flex;
-    justify-content: space-between;
-    padding-inline: 30px;
-    padding-right: 355px;
+    color: #d4a373;
+    text-shadow: 1px 2px 1px #b3712f33;
 }
 
-.logo img {
-    width: 165px;
+.logo i {
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.logo h6 span {
+    display: block;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
     background-color: transparent;
     border: #D4A373 1px solid;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.082);
-    margin-right: 350px;
     transition: ease .7s;
 }
 
 .menu:hover {
     border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.048);
-
 }
 
 .menu ul {
-    display: flex;
     list-style-type: none;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
 }
 
 .menu ul a {
@@ -69,17 +87,10 @@ body {
 
 .menu ul a li:hover {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.123);
-    border: #FEFAE0 1px solid;
+    border: #dfac7a 1px solid;
     background-color: #dfac7a;
     color: #FEFAE0;
     border-radius: 40px;
-}
-
-.login {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 30px;
-    margin: 20px;
 }
 
 .login button {
@@ -99,11 +110,56 @@ body {
 
 .login button:hover {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.123);
-    border: #FEFAE0 1px solid;
     background-color: #dfac7a;
     color: #FEFAE0;
     border-radius: 40px;
 }
+
+
+/*muda de cor quando da scroll*/
+nav.sticky {
+    padding: 5px 20px;
+    background-color: #d4a373;
+    box-shadow: 1px 1px 57px 1px #c1650c;
+}
+
+nav.sticky .logo {
+    color: #FEFAE0;
+}
+
+nav.sticky .menu {
+    box-shadow: none;
+}
+
+nav.sticky .menu ul a {
+    color: #FEFAE0;
+}
+
+nav.sticky .menu ul a li:hover {
+    border: unset;
+}
+
+nav.sticky .login button {
+    box-shadow: none;
+    color: #FEFAE0;
+}
+
+nav.sticky .login button:hover {
+    border: unset;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.105);
+}
+
+/* fim menu */
+
+
+
+/*margin-top pra todo o site*/
+.margemCorpo {
+    margin-top: 90px;
+}
+
+/*fim*/
+
 
 /*formulário*/
 .form-header {
