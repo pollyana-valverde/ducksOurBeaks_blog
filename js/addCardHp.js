@@ -218,3 +218,23 @@ const cardsGansos = [
     },
     
 ];
+
+const cardsNegrolas = [
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 4',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 3',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 2',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 1',
+    },
+    
+];

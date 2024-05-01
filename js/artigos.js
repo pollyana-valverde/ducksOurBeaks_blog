@@ -59,3 +59,16 @@ cardsGansos.forEach(cardGansos => {
     `;
   document.querySelector(".categoryLine-artgs.gansos").appendChild(divCardGansos);
 });
+
+
+//negrolas
+cardsNegrolas.forEach(cardNegrolas => {
+  const divCardNegrolas = document.createElement('div');
+  divCardNegrolas.innerHTML = `
+<a href="#">
+  <img src="imagens/${cardNegrolas.imgAve}" alt="">
+  <h1>${cardNegrolas.nomeAve}</h1>
+</a>
+    `;
+  document.querySelector(".categoryLine-artgs.negrolas").appendChild(divCardNegrolas);
+});
