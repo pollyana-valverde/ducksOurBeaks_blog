@@ -198,3 +198,23 @@ const cardsPinguins = [
     },
     
 ];
+
+const cardsGansos = [
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 1',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 2',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 3',
+    },
+    {
+        imgAve: '/img1.jpg',
+        nomeAve: 'Título 4',
+    },
+    
+];

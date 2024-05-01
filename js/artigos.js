@@ -47,3 +47,15 @@ cardsPinguins.forEach(cardPinguins => {
     `;
   document.querySelector(".categoryLine-artgs.pinguins").appendChild(divCardPinguins);
 });
+
+//gansos e mergansos
+cardsGansos.forEach(cardGansos => {
+  const divCardGansos = document.createElement('div');
+  divCardGansos.innerHTML = `
+<a href="#">
+  <img src="imagens/${cardGansos.imgAve}" alt="">
+  <h1>${cardGansos.nomeAve}</h1>
+</a>
+    `;
+  document.querySelector(".categoryLine-artgs.gansos").appendChild(divCardGansos);
+});
