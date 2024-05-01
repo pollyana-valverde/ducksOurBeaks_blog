@@ -395,6 +395,7 @@ div.categories-line {
 
 /*categoria cisne*/
 .categoryLine-cisne {
+    margin: 30px;
     display: flex;
     justify-content: center;
 }
@@ -407,7 +408,7 @@ div.categories-line {
 }
 
 .cisne_content_txt {
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .cisne_content_txt h1 {
@@ -436,7 +437,7 @@ div.categories-line {
     border: 1px solid #d4a37300;
 }
 
-.cisne_content_img{
+.cisne_content_img {
     padding-right: 0 !important;
 }
 
@@ -447,7 +448,7 @@ div.categories-line {
 
 /*faixa categoria piadeira*/
 
- .categoryLine-piadeira{
+.categoryLine-piadeira {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -462,7 +463,10 @@ div.piadeira-conteiner {
 }
 
 .piadeira-conteiner-content {
-    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 .piadeira-conteiner-content h1 {
@@ -515,6 +519,7 @@ div.piadeira-conteiner {
 
 .piadeira-conteiner-vid {
     display: flex;
+    margin: 0 auto !important;
 }
 
 .piadeira-conteiner-vid img {
@@ -533,34 +538,42 @@ div.piadeira-conteiner {
 
 .categoryLine-patos-artg {
     display: flex;
+    flex-wrap: wrap;
 }
 
-
-.patos-artg-1 a {
-    text-decoration: none;
-    transition: ease .5s;
+.patos-artg-1 {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.carousel-item img {
-    width: 800px !important;
-    height: 550px !important;
+.slide-patos-img img {
+    width: 100% !important;
     margin: 10px !important;
     border-radius: 10px !important;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.082) !important;
 }
 
-.patos-artg-1 a h1 {
+.patos-artg-1-title {
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: ease .5s;
+}
+
+.patos-artg-1-title h1 {
     margin-left: 10px;
     color: #b99168;
     text-align: left;
 }
 
-.patos-artg-1 a h1:hover {
+.patos-artg-1-title h1:hover {
     opacity: 90%;
 }
 
 .patos-artg-2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .categoryLine-patos-header {
@@ -591,19 +604,17 @@ div.piadeira-conteiner {
 .patos-artg-2 a h1 {
     font-size: 37px;
     margin-left: 20px;
-    margin-bottom: 10px;
 }
 
-.patos-artg-2 h4 {
+.patos-artg-2 p {
+    font-size: 18px;
     margin-left: 20px;
-    margin-bottom: 30px;
     color: #86705a;
 }
 
 div.patos-artg-2-line {
-    margin: 45px 0 40px 20px;
-    width: 600px;
-    height: 1px;
+    margin: 20px;
+    height: 1.9px;
     background-color: #d4a3737c;
 }
 
